@@ -51,22 +51,22 @@
   };
   kernelsu-stable = {
     pname = "kernelsu-stable";
-    version = "v0.9.4";
+    version = "v0.9.5";
     src = fetchgit {
       url = "https://github.com/tiann/KernelSU.git";
-      rev = "v0.9.4";
+      rev = "v0.9.5";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-2O2syoLVBJbuKrdXLnL4Y8eJp0DU1fZAXiT9EFwJwHQ=";
+      sha256 = "sha256-pvaL6KEB7X3s8zyLQSPhBhoXaNdVDthH7HnAZRE9JYk=";
     };
   };
   kernelsu-stable-revision-code = {
     pname = "kernelsu-stable-revision-code";
-    version = "11838";
+    version = "11872";
     src = fetchurl {
       url = "https://github.com/tiann/KernelSU";
-      sha256 = "sha256-a/iIZ1Wn8d/k9Npp2LDR+Ovo0WWS6QXJaKZ2f4QCakI=";
+      sha256 = "sha256-wL4dHicgvlhe84o048eeY/GHCO4WYqXwPwTrMPilgYY=";
     };
   };
   linux-amazon-karnak = {

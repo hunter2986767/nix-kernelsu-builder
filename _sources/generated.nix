@@ -15,15 +15,15 @@
   };
   anykernel-osm0sis = {
     pname = "anykernel-osm0sis";
-    version = "fdf4603a407048740191a478229b294a714949f8";
+    version = "db90e19aae369c9c10b956a08003cee3958d50a0";
     src = fetchFromGitHub {
       owner = "osm0sis";
       repo = "AnyKernel3";
-      rev = "fdf4603a407048740191a478229b294a714949f8";
+      rev = "db90e19aae369c9c10b956a08003cee3958d50a0";
       fetchSubmodules = false;
-      sha256 = "sha256-8fBGZj5xXI08k38aivVebpLyWM4q3ghOr+ZhxmVm+R0=";
+      sha256 = "sha256-MofvAxGUB4kcOmm42u3rDFPR7Pj63OjaC4FRP9jAy0k=";
     };
-    date = "2024-10-14";
+    date = "2024-12-17";
   };
   gcc-aarch64-linux-android = {
     pname = "gcc-aarch64-linux-android";
@@ -66,7 +66,7 @@
     version = "11986";
     src = fetchurl {
       url = "https://github.com/tiann/KernelSU";
-      sha256 = "sha256-yEVAJlzNbMeWyM6Pxy/2Hx3vjrhv9zPiUrzZ+M3nPU4=";
+      sha256 = "sha256-u9iEz2B/lukf0GCrySQTfjPxXD1W4fo9qfdGiI5GVfo=";
     };
   };
   linux-amazon-karnak = {

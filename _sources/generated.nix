@@ -66,7 +66,7 @@
     version = "12018";
     src = fetchurl {
       url = "https://github.com/tiann/KernelSU";
-      sha256 = "sha256-KrpZirdxJKZU4OoZFAdplEEyCq0euLqFRM8RZ5LgEuI=";
+      sha256 = "sha256-4zK2e3NcXH+kjELmZUNS+oCwQ7LSysYS8GEZSrQItm8=";
     };
   };
   linux-amazon-karnak = {

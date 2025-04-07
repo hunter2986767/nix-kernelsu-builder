@@ -107,7 +107,7 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-MIlbWnRi8BnpDOqih0FO7qxYPOvTwaiIOPOGSOcYBcQ=",
+            "sha256": "sha256-QoHW6MoNLRCMrqP8enX6eBDHL/aOrglZG2xG8tZzKDE=",
             "type": "url",
             "url": "https://github.com/tiann/KernelSU"
         },

@@ -3,15 +3,15 @@
 {
   anykernel-kernelsu = {
     pname = "anykernel-kernelsu";
-    version = "ee30bad85a483cad2b1e4ff34e69f983a04f875a";
+    version = "ac6360f6fc1895cbd218246f12a771f63d0e5e4f";
     src = fetchFromGitHub {
       owner = "Kernel-SU";
       repo = "AnyKernel3";
-      rev = "ee30bad85a483cad2b1e4ff34e69f983a04f875a";
+      rev = "ac6360f6fc1895cbd218246f12a771f63d0e5e4f";
       fetchSubmodules = false;
-      sha256 = "sha256-QJS4+1teNcgUOy2gD+KuoEG/9pUNd/6uSH84AkAlVoQ=";
+      sha256 = "sha256-lWqFsucmu6tyLJd4JbNxbBPDRcArQ2KaSUeaqFH73cA=";
     };
-    date = "2023-10-30";
+    date = "2025-05-17";
   };
   anykernel-osm0sis = {
     pname = "anykernel-osm0sis";
@@ -66,7 +66,7 @@
     version = "12081";
     src = fetchurl {
       url = "https://github.com/tiann/KernelSU";
-      sha256 = "sha256-gN+ED/kbWBy9mfflH5t6HkIRePkY1txdmIX6GwLMYSo=";
+      sha256 = "sha256-n8GvQzLyV2jhAywFKYN2rPfy64B+fnO5xNdBkIMbQmM=";
     };
   };
   linux-amazon-karnak = {
